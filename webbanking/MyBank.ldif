@@ -1,0 +1,134 @@
+﻿dn: c=EL
+objectClass: Organization
+c: EL
+
+dn: OU=Manager,O=Axis,c=EL
+ou: Manager
+objectClass: OrganizationalUnit
+
+dn: OU=Admin, OU=Manager,O=Axis,c=EL
+ou: Admin
+objectClass: OrganizationalUnit
+
+dn: OU=SHAPE,OU=Manager,O=Axis,c=EL
+ou: SHAPE
+objectClass: top
+objectClass: person
+objectClass: OrganizationalUnit
+
+dn: ou=ROOT CA,ou=SHAPE,OU=Manager,O=Axis,c=EL
+certificateRevocationList;binary:: MIIBojCBizANBgkqhkiG9w0BAQUFADBcMQswCQYDVQQGE
+ wJHUjEOMAwGA1UEChMFUGFwZWkxDjAMBgNVBAsTBVBhcGVpMQ4wDAYDVQQDEwVQYXBlaTEdMBsGCSqG
+ SIb3DQEJARYOcGFwZWlAcGFwZWkuZ3IXDTA1MDUxNzE2MDkxMloXDTEwMDUxNjE2MDkxMlowDQYJKoZ
+ IhvcNAQEFBQADggEBABp3fnrwHYuLuUS64bRKBf0ONRAKE3catu1+xINI0odIscXfZZEqcvIOfXDIVj
+ bIhU8tYl+Fac3K/TqezSmoy7/2FbiTMmxeCMuOjLfqXIYbiIVPXNnIt/pXvSoVsEF4cIS+AgRVLc8U5
+ z/Jd6UePLsHwSptuO2YEEAqr+aOZ84cMsM27W7bjHiZGNmaUqMdGI9OytRxCuH90pZiFk38XmLcmB0R
+ 5NtUcU78fuyhpgEHsonRWEHZv8yug56C7Ew1DaSEfTr4UJEP2nzjT/iirnAmKL5Ep+NdzRl5DGoBQhA
+ 12Rm/aLX/zJpxxbhnVj1yB3pzV+LwIAExl2e7LxqcOQE=
+ou: ROOT CA
+objectClass: top
+objectClass: organizationalUnit
+objectClass: pkiCA
+
+dn: OU=Finance,O=Axis,c=EL
+objectClass: organizationalUnit
+ou: Management
+
+dn: O=Axis, c=EL
+objectClass: Organization
+o: Axis
+
+dn: O=Bank, c=EL
+objectClass: Organization
+o: Axis
+
+dn: OU=Finance,O=Axis,c=EL
+ou: Finance
+objectClass: organizationalUnit
+
+dn: ou=unregisteredUsers,OU=Finance, O=Axis, c=EL
+ou: unregisteredUsers
+objectClass: top
+objectClass: organizationalUnit
+
+dn: ou=registeredUsers,OU=Finance, O=Axis, c=EL
+ou: registeredUsers
+objectClass: top
+objectClass: organizationalUnit
+
+dn: cn=dimgiatz@gmail.com, ou=registeredUsers, OU=Finance, O=Axis, c=EL
+cn: dimgiatz@gmail.com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+userPassword: f1bbe8c65ab5beb02353dcd4e3ef2585f79b08f0
+
+dn: cn=marilena@gmail.com, ou=registeredUsers, OU=Finance, O=Axis, c=EL
+cn: marilena@gmail.com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+userPassword: dbbfac62310ea57dbdb41684456f729e6540e652
+
+dn: cn=admin,OU=Admin,OU=Manager,O=Axis,c=EL
+userCertificate;binary:: MIIDnjCCAoagAwIBAgIJAKkfdv/d6fQKMA0GCSqGSIb3DQEBBQUAMFw
+ xCzAJBgNVBAYTAkdSMQ4wDAYDVQQKEwVQYXBlaTEOMAwGA1UECxMFUGFwZWkxDjAMBgNVBAMTBVBhcG
+ VpMR0wGwYJKoZIhvcNAQkBFg5wYXBlaUBwYXBlaS5ncjAeFw0wNTA1MTcxNjA1MjJaFw0xMDA1MTYxN
+ jA1MjJaMFwxCzAJBgNVBAYTAkdSMQ4wDAYDVQQKEwVQYXBlaTEOMAwGA1UECxMFUGFwZWkxDjAMBgNV
+ BAMTBVBhcGVpMR0wGwYJKoZIhvcNAQkBFg5wYXBlaUBwYXBlaS5ncjCCASIwDQYJKoZIhvcNAQEBBQA
+ DggEPADCCAQoCggEBAMJt+7Ybvf8vWHTvWSDP7Qaub0xTpF2zDtK1c/B+SEr/W1PjHFaZ/0tRLzA9w2
+ O3121/hwmXLlHGV6R/CT2WsQ37zlt9h5RT1WiNoOoLo84eo100KlvAXzlNFraE6FGI4Qx3rFp5Nx/Kc
+ rNn5V4RkpFFZT1B88pjN0HyeJIwt676Db3mIqPle1Y3/p7Hf3R19GtKh/Owh51pxoaA4qlTE1eOf4iK
+ FXJaRoo/tJ0rMT56iL5Q/ZLogOMILN4D8dt7bn6+ncMVqUVzAfbfog5X5JCYjBKYwwfHueM4kyv1q1B
+ V7+RvNMzjbd80n04nQ9OJNexgQKoh7OrcZbxffUEZPH0CAwEAAaNjMGEwHQYDVR0OBBYEFOxSA855Qo
+ ZGFXFftd3a2A3nCHDnMB8GA1UdIwQYMBaAFOxSA855QoZGFXFftd3a2A3nCHDnMA8GA1UdEwEB/wQFM
+ AMBAf8wDgYDVR0PAQH/BAQDAgH+MA0GCSqGSIb3DQEBBQUAA4IBAQCxjuzwpj8qG1leb8eMJb1r971w
+ vXlpqjS74Zm4z7cC3+N0scuT2iPO3A9BzC05eTzwY/l8dTDZ5InPs2iT33q8gadXrYN8Eii33RH1l3R
+ sHuaUX5DXwTlKFPW8svGSsDal4Ra7hNowkQurxy63wSJXX5FzvDq5RQ2lxPOPpNRkmKDWI8yEbqOejN
+ /xC+hhNoMDO9Blygyz461019geuZm0ITRV5BkPw38G8raCIKUZM0oXS2I/xMMb9n8WiFl5UEHaudjSN
+ QKHSPWvyXEv01SSNdoA3kG6lIoBLVHpIJSv3/W+kKU/dytFBF+ggjf6+hCa5SdR7MCcxlCabibYHYIo
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+cn: admin
+userPassword: A12345678!
+
+dn: OU=subAdmin, OU=Manager,O=Axis,c=EL
+ou: subAdmin
+objectClass: OrganizationalUnit
+
+dn: cn=admin3, ou=Admin,OU=Manager, O=Axis, c=EL
+cn: admin3
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+userPassword: A312345678!
+
+dn: cn=admin2, ou=subAdmin,OU=Manager, O=Axis, c=EL
+cn: admin2
+userPassword: A212345678!
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+
+dn: cn=kostas@gmail.com, ou=registeredUsers,OU=Finance, O=Axis, c=EL
+cn: kostas@gmail.com
+userPassword: 433e26ad64c9fd4c31049b9dc7f5057cdca6495c
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+
+dn: cn=natalia@gmail.com, ou=unregisteredUsers,OU=Finance, O=Axis, c=EL
+cn: natalia@gmail.com
+userPassword: 112a474f20f234c80a0f516fcab1d4a0b711c47e
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+
+dn: cn=admin4, ou=subAdmin,OU=Manager, O=Axis, c=EL
+cn: admin4
+userPassword: Aa412345678!
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+
